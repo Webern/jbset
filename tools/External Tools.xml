@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="env-script" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/repos/iqbid/config/env.sh" />
+      <option name="PARAMETERS" value="dev-local" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/repos/iqbid/config" />
+    </exec>
+  </tool>
 </toolSet>
